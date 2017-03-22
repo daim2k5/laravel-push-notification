@@ -11,11 +11,7 @@ Update your `composer.json` file to include this package as a dependency
 Laravel 5 & Lumen
 
 ```json
-"davibennun/laravel-push-notification": "dev-laravel5"
-```
-Laravel 4.*
-```json
-"davibennun/laravel-push-notification": "dev-master"
+"daim2k5/laravel-push-notification": "1.*"
 ```
 
 Register the PushNotification service provider by adding it to the providers array.
@@ -43,10 +39,6 @@ Laravel 5
 php artisan vendor:publish --provider="Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider" --tag="config"
 ```
 
-Laravel 4.*
-```
-php artisan vendor:publish --provider="Vendor/Davibennun/LaravelPushNotification/LaravelPushNotificationServiceProvider" --tag="config"
-```
 
 This will generate a config file like this
 ```php
@@ -145,5 +137,5 @@ This package should be used with [Laravel Queues], so pushes dont blocks the use
 
 
 
-[Notification Package]:https://github.com/Ph3nol/NotificationPusher
+[Notification Package]:https://github.com/blablacar/NotificationPusher
 [Laravel Queues]:http://laravel.com/docs/queues
