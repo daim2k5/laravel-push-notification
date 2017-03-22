@@ -45,7 +45,7 @@ php artisan vendor:publish --provider="Davibennun\LaravelPushNotification\Larave
 
 Laravel 4.*
 ```
-php artisan config:publish davibennun/laravel-push-notification
+php artisan vendor:publish --provider="Vendor/Davibennun/LaravelPushNotification/LaravelPushNotificationServiceProvider" --tag="config"
 ```
 
 This will generate a config file like this
